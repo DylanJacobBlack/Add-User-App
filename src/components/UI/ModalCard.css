@@ -1,0 +1,30 @@
+.modal-card {
+  background-color: rgb(255, 198, 198);
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+  padding: 0px;
+  position: relative;
+  z-index: 8;
+  overflow: hidden;
+}
+
+.modal-card h1 {
+  position: absolute;
+  top: -9%;
+  z-index: 9;
+  width: 100%;
+  height: 50px;
+  background-color: blueviolet;
+  font-size: x-large;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.modal-card__message {
+  position: relative;
+  top: 50px;
+  z-index: 1;
+  padding: 20px;
+}
